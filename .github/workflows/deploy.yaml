@@ -13,3 +13,4 @@ jobs:
       - run: docker build -t cygnetops/react-test -f Dockerfile.dev .
       - run: docker run -e CI=true cygnetops/react-test npm test
 #Changing secrets in github
+#Changing secrets in github to redeploy fourth time
